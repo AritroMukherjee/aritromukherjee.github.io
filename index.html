@@ -11,3 +11,17 @@
   <li><a href="https://www.forbes.com/sites/bernardmarr/2018/01/22/35-amazing-real-world-examples-of-how-blockchain-is-changing-our-world/#17e6e75f43b5">Real world solutions of blockchain: Forbes</a></li>
   <li><a href="https://www.instructionalsolutions.com/blog/how-to-write-white-paper">Wpaper</a></li>
 </ol> 
+<div id="map" style="width:500px;height:400px;background:yellow"></div>
+
+<script>
+function myMap() {
+var mapOptions = {
+    center: new google.maps.LatLng(12.8513792,77.6613313),
+    zoom: 12,
+    mapTypeId: google.maps.MapTypeId.HYBRID
+}
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
